@@ -64,25 +64,21 @@ All color combinations have been carefully selected to meet WCAG (Web Content Ac
 
 ## Color Palette Preview
 
-<ColorPalette>
-  <ColorSwatch
-    name="Mint Green - Light"
-    hex="#00e1a0"
-    usage="Headlines on dark backgrounds"
-  />
-  <ColorSwatch
-    name="Mint Green - Dark"
-    hex="#007A5E"
-    usage="Headlines on light backgrounds"
-  />
-  <ColorSwatch
-    name="Petroleum Green"
-    hex="#0e2e2b"
-    usage="Dark backgrounds"
-  />
-  <ColorSwatch
-    name="Sea Green"
-    hex="#ccf9ec"
-    usage="Light backgrounds"
-  />
-</ColorPalette> 
+<div className="grid grid-cols-2 gap-4">
+  <div className="p-4 rounded-lg" style={{ backgroundColor: '#00e1a0' }}>
+    <h3 className="text-white">Mint Green - Light</h3>
+    <p className="text-white">#00e1a0</p>
+  </div>
+  <div className="p-4 rounded-lg" style={{ backgroundColor: '#007A5E' }}>
+    <h3 className="text-white">Mint Green - Dark</h3>
+    <p className="text-white">#007A5E</p>
+  </div>
+  <div className="p-4 rounded-lg" style={{ backgroundColor: '#0e2e2b' }}>
+    <h3 className="text-white">Petroleum Green</h3>
+    <p className="text-white">#0e2e2b</p>
+  </div>
+  <div className="p-4 rounded-lg" style={{ backgroundColor: '#ccf9ec' }}>
+    <h3 className="text-gray-800">Sea Green</h3>
+    <p className="text-gray-800">#ccf9ec</p>
+  </div>
+</div> 

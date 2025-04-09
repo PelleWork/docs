@@ -18,7 +18,8 @@
             "pages": [
               "introduction",
               "color-scheme",
-              "downloads-and-info"
+              "download",
+              "features"
             ]
           }
         ]
@@ -26,8 +27,8 @@
     ]
   },
   "logo": {
-    "light": "/green-cd-wdt.png",
-    "dark": "/green-cd-wdt.png"
+    "light": "/green-cd-wdt-rec.png",
+    "dark": "/green-cd-wdt-rec.png"
   },
   "navbar": {
     "links": [
