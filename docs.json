@@ -17,9 +17,9 @@
             "group": "Main",
             "pages": [
               "introduction",
+              "features",
               "color-scheme",
-              "download",
-              "features"
+              "download"
             ]
           }
         ]
